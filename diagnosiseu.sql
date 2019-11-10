@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 10-11-2019 a las 21:04:23
+-- Tiempo de generación: 10-11-2019 a las 21:18:03
 -- Versión del servidor: 10.4.8-MariaDB
 -- Versión de PHP: 7.3.11
 
@@ -38,13 +38,6 @@ CREATE TABLE `bacteriologos` (
   `email` varchar(255) COLLATE utf8_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
---
--- Volcado de datos para la tabla `bacteriologos`
---
-
-INSERT INTO `bacteriologos` (`bacteriologo_id`, `nombre`, `documento`, `fecha_nacimiento`, `direccion`, `telefono`, `email`) VALUES
-(2, 'Carmen Avendaño Trocha', 33340857, '1970-08-12', 'Cra 51 #25-28', '2147483647', 'danieldoav@gmail.com');
-
 -- --------------------------------------------------------
 
 --
@@ -56,23 +49,6 @@ CREATE TABLE `entidades` (
   `nombre` varchar(255) COLLATE utf8_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
---
--- Volcado de datos para la tabla `entidades`
---
-
-INSERT INTO `entidades` (`entidad_id`, `nombre`) VALUES
-(10, 'holaa'),
-(11, 'fer'),
-(12, 'mar'),
-(13, 'd'),
-(14, 'r'),
-(15, 't'),
-(16, 'u'),
-(17, 'o'),
-(18, 'o'),
-(19, 'i'),
-(20, 'i');
-
 -- --------------------------------------------------------
 
 --
@@ -83,14 +59,6 @@ CREATE TABLE `epses` (
   `eps_id` int(11) NOT NULL,
   `nombre` varchar(255) COLLATE utf8_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
-
---
--- Volcado de datos para la tabla `epses`
---
-
-INSERT INTO `epses` (`eps_id`, `nombre`) VALUES
-(1, 'cafesalud'),
-(2, 'saludcoop');
 
 -- --------------------------------------------------------
 
@@ -312,15 +280,6 @@ CREATE TABLE `pacientes` (
   `email` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `observaciones` varchar(255) COLLATE utf8_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
-
---
--- Volcado de datos para la tabla `pacientes`
---
-
-INSERT INTO `pacientes` (`paciente_id`, `nombre`, `identificacion`, `fechanac`, `eps`, `entidad`, `direccion`, `telefono`, `email`, `observaciones`) VALUES
-(16, 'Daniel Andres Donado Avendaño', 1007803280, '0000-00-00', '', '', 'Calle 75 #72-140', '2147483647', 'danieldoav@gmail.com', ''),
-(17, '', 0, '0000-00-00', '', '', '', '2147483647', '', ''),
-(19, '', 1, '0000-00-00', '', '', '', '3006922088', '', '');
 
 -- --------------------------------------------------------
 
