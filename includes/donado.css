@@ -1,0 +1,47 @@
+.con:before{
+    content: "";
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    display: block;
+    background-image: url("https://www.10wallpaper.com/wallpaper/1366x768/1210/orange_background-2012_Happy_Halloween_theme_Wallpapers_1366x768.jpg");
+    filter: blur(3.5px);
+    width: 2732px;
+    height: 1536px;
+    background-attachment: fixed;
+}
+
+#card{
+    width: 2000px; 
+    opacity: 0.9;
+}
+
+#cardtitle{
+    background-color: coral;
+    font-weight: bold;
+}
+
+#card label{
+   opacity: 1;
+}
+
+#formulario{
+    opacity: 1;
+}
+
+.con{
+    position: relative;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0px;
+}
+
+#table{
+    height: 600px;
+    overflow: auto;
+}
+
