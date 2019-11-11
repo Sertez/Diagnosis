@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 10-11-2019 a las 21:18:03
+-- Tiempo de generación: 11-11-2019 a las 21:55:14
 -- Versión del servidor: 10.4.8-MariaDB
 -- Versión de PHP: 7.3.11
 
@@ -38,6 +38,16 @@ CREATE TABLE `bacteriologos` (
   `email` varchar(255) COLLATE utf8_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
+--
+-- Volcado de datos para la tabla `bacteriologos`
+--
+
+INSERT INTO `bacteriologos` (`bacteriologo_id`, `nombre`, `documento`, `fecha_nacimiento`, `direccion`, `telefono`, `email`) VALUES
+(3, 'juan', 1, '0000-00-00', '', '', ''),
+(4, 'carlos', 2, '0000-00-00', '', '', ''),
+(5, 'marcos', 3, '0000-00-00', '', '', ''),
+(6, 'alfonso', 4, '0000-00-00', '', '', '');
+
 -- --------------------------------------------------------
 
 --
@@ -48,6 +58,24 @@ CREATE TABLE `entidades` (
   `entidad_id` int(11) NOT NULL,
   `nombre` varchar(255) COLLATE utf8_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Volcado de datos para la tabla `entidades`
+--
+
+INSERT INTO `entidades` (`entidad_id`, `nombre`) VALUES
+(21, 'saludcoop'),
+(22, 'medimas'),
+(23, 'cafesauld'),
+(24, 'asdf'),
+(25, 'sadf'),
+(26, 'asdfasdf'),
+(27, 'retyrty'),
+(28, 'retyreurej'),
+(29, 'retjrtjretj'),
+(30, 'ertjretjretj'),
+(31, 'ertjtrjtj'),
+(32, 'ertjrtjrtj');
 
 -- --------------------------------------------------------
 
@@ -60,6 +88,16 @@ CREATE TABLE `epses` (
   `nombre` varchar(255) COLLATE utf8_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
+--
+-- Volcado de datos para la tabla `epses`
+--
+
+INSERT INTO `epses` (`eps_id`, `nombre`) VALUES
+(3, 'mierda'),
+(4, 'azas'),
+(5, 'qwqwqw'),
+(6, 'saludcoop');
+
 -- --------------------------------------------------------
 
 --
@@ -69,9 +107,18 @@ CREATE TABLE `epses` (
 CREATE TABLE `examenes` (
   `examen_id` int(11) NOT NULL,
   `paciente_id` int(11) NOT NULL,
+  `doc_paciente` int(11) NOT NULL,
   `tipo` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `fecha` date NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Volcado de datos para la tabla `examenes`
+--
+
+INSERT INTO `examenes` (`examen_id`, `paciente_id`, `doc_paciente`, `tipo`, `fecha`) VALUES
+(5, 21, 1007803280, 'Parcial de Orina', '2019-11-11'),
+(6, 21, 1007803280, 'Parcial de Orina', '2019-11-11');
 
 -- --------------------------------------------------------
 
@@ -278,8 +325,21 @@ CREATE TABLE `pacientes` (
   `direccion` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `telefono` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `email` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
-  `observaciones` varchar(255) COLLATE utf8_unicode_ci NOT NULL
+  `observaciones` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `fecha_creacion` date NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Volcado de datos para la tabla `pacientes`
+--
+
+INSERT INTO `pacientes` (`paciente_id`, `nombre`, `identificacion`, `fechanac`, `eps`, `entidad`, `direccion`, `telefono`, `email`, `observaciones`, `fecha_creacion`) VALUES
+(21, 'Daniel Andres Donado Avendaño', 1007803280, '2000-09-16', 'saludcoop', 'retyreurej', 'cra 42f #80-168', '+573006922088', 'danieldoav@gmail.com', 'Es muy guapo, demasiado', '2019-11-11'),
+(22, 'Dulco', 1234567, '2000-12-12', 'saludcoop', 'medimas', 'Calle 75 #72-140', '30000000', 'dulco@gmail.com', 'es feo', '2019-11-11'),
+(23, 'Giovanni', 987654, '2000-11-07', 'mierda', 'retyreurej', 'medallo', '6789090', 'giorno@gmail.com', 'uso', '2019-11-11'),
+(24, 'Pika', 12365, '3333-04-12', 'mierda', 'saludcoop', 'ffffff', '343432', 'ffsfsdf', 'wqfqwfqwfwqef', '2019-11-11'),
+(25, 'azucar', 123890, '2000-02-01', 'qwqwqw', 'medimas', 'Calle 75 #72-140', '3006922088', 'danieldoav@gmail.com', 'arroba', '2019-11-11'),
+(26, 'yyyyy', 555555, '0000-00-00', 'mierda', 'saludcoop', '', '', '', '', '2019-11-11');
 
 -- --------------------------------------------------------
 
@@ -341,7 +401,7 @@ CREATE TABLE `p_orina` (
   `cetonas` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `sangre` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `bilirrubinas` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
-  `uroblinogeno` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `urobilinogeno` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `nitritos` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `cel_epiteliales` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `moco` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
@@ -353,6 +413,14 @@ CREATE TABLE `p_orina` (
   `cilindros` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `bacteriologo` varchar(255) COLLATE utf8_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Volcado de datos para la tabla `p_orina`
+--
+
+INSERT INTO `p_orina` (`examen_id`, `color`, `aspecto`, `ph`, `densidad`, `proteinas`, `glucosa`, `cetonas`, `sangre`, `bilirrubinas`, `urobilinogeno`, `nitritos`, `cel_epiteliales`, `moco`, `bacterias`, `leucocitos`, `piocitos`, `hematies`, `cristales`, `cilindros`, `bacteriologo`) VALUES
+(3, '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', 'juan'),
+(5, '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', 'juan');
 
 -- --------------------------------------------------------
 
@@ -592,31 +660,31 @@ ALTER TABLE `vih`
 -- AUTO_INCREMENT de la tabla `bacteriologos`
 --
 ALTER TABLE `bacteriologos`
-  MODIFY `bacteriologo_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `bacteriologo_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT de la tabla `entidades`
 --
 ALTER TABLE `entidades`
-  MODIFY `entidad_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
+  MODIFY `entidad_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
 
 --
 -- AUTO_INCREMENT de la tabla `epses`
 --
 ALTER TABLE `epses`
-  MODIFY `eps_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `eps_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT de la tabla `examenes`
 --
 ALTER TABLE `examenes`
-  MODIFY `examen_id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `examen_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT de la tabla `pacientes`
 --
 ALTER TABLE `pacientes`
-  MODIFY `paciente_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
+  MODIFY `paciente_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
