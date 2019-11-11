@@ -15,6 +15,6 @@
 
 <nav class="navbar navbar-dark bg-dark">
 	<div class="container">
-		<a href="index.php" class="navbar-brand">Diagnosis EU</a>
+		<a href="pacientes.php" class="navbar-brand">Diagnosis EU</a>
 	</div>
 </nav>

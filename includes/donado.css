@@ -13,13 +13,14 @@
 }
 
 #card{
-    width: 2000px; 
+    width: 1500px; 
     opacity: 0.9;
 }
 
 #cardtitle{
     background-color: coral;
     font-weight: bold;
+    text-align: center;
 }
 
 #card label{
@@ -41,7 +42,23 @@
 }
 
 #table{
-    height: 600px;
-    overflow: auto;
+    max-height: 400px;
+    overflow-y: scroll;
 }
 
+#extitle{
+    background-color: darksalmon;
+    font-weight: bold;
+    font-size: initial;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#bac_space{
+    margin-top: 20px;
+    align-self: center;
+}
+
+#sel_width{
+    width: 300px;
+}

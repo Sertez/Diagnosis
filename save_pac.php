@@ -23,7 +23,7 @@ if (isset($_POST['save_pac'])){
         die();
     }
 
-    $_SESSION['message']= 'Paciente creado con exito';
+    $_SESSION['message']= 'Paciente creado con éxito';
     $_SESSION['message_type']= 'success';
 
     header("Location: pacientes.php");
