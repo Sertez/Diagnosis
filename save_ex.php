@@ -11,8 +11,8 @@ if (isset($_POST['save_ex'])) {
     $row = mysqli_fetch_array($paciente_query);
     $paciente_id = $row['paciente_id'];
 
-    $query = "INSERT INTO examenes(paciente_id,tipo) 
-    VALUES('$paciente_id','$tipo')";
+    $query = "INSERT INTO examenes(paciente_id,doc_paciente,tipo) 
+    VALUES('$paciente_id','$p_doc','$tipo')";
     $result = mysqli_query($conn, $query);
     if (!$result) {
         $_SESSION['message'] = 'Error Inesperado';

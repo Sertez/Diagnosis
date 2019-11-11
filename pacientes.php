@@ -166,7 +166,7 @@ function calculaedad($fechanacimiento)
 									$fin = $_POST['fin'];
 									$query = "SELECT * FROM pacientes WHERE nombre LIKE '%{$nombre}%' and identificacion LIKE '%{$docu}%'
 									AND eps LIKE '%{$eps}%' AND entidad LIKE '%{$entidad}%' and fecha_creacion >= '$inicio' AND fecha_creacion <= '$fin' 
-									ORDER BY fechanac DESC";
+									ORDER BY fecha_creacion DESC";
 									$pac_table = mysqli_query($conn, $query);
 									$numero = 0;
 									while ($row = mysqli_fetch_array($pac_table)) { ?>
@@ -200,7 +200,7 @@ function calculaedad($fechanacimiento)
 										unset($_POST['docu']);
 										unset($_POST['entidad']);
 									} else {
-										$query = "SELECT * FROM pacientes ORDER BY fechanac DESC";
+										$query = "SELECT * FROM pacientes ORDER BY fecha_creacion DESC";
 										$pac_table = mysqli_query($conn, $query);
 										$numero = 0;
 										while ($row = mysqli_fetch_array($pac_table)) { ?>

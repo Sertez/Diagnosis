@@ -16,7 +16,7 @@
             }
             ?>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <?php if (isset($_SESSION['message'])) { ?>
                         <div class="alert alert-<?= $_SESSION['message_type'] ?> alert-dismissible fade show" role="alert">
                             <?= $_SESSION['message'] ?>
@@ -60,6 +60,7 @@
                             <table class="table table-bordered">
                                 <thead>
                                     <th>#</th>
+                                    <th>Documento del Paciente</th>
                                     <th>Tipo de Examen</th>
                                     <th>Fecha de Creacion</th>
                                     <th>Acción</th>
@@ -73,6 +74,7 @@
                                         <?php $numero += 1; ?>
                                         <tr>
                                             <td><?php echo $numero ?></td>
+                                            <td><?php echo $row['doc_paciente']?></td>
                                             <td><?php echo $row['tipo'] ?></td>
                                             <td><?php echo $row['fecha'] ?></td>
                                             <td>
@@ -97,3 +99,5 @@
         </div>
     </div>
 </div>
+
+<?php include('includes/footer.php');?>
