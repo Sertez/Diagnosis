@@ -60,6 +60,7 @@
                             <table class="table table-bordered">
                                 <thead>
                                     <th>#</th>
+                                    <th>Nombre del Paciente</th>
                                     <th>Documento del Paciente</th>
                                     <th>Tipo de Examen</th>
                                     <th>Fecha de Creacion</th>
@@ -71,9 +72,16 @@
                                     $examenes = mysqli_query($conn, $query);
                                     $numero = 0;
                                     while ($row = mysqli_fetch_array($examenes)) { ?>
-                                        <?php $numero += 1; ?>
+                                        <?php $numero += 1; 
+                                        $doc=$row['doc_paciente'];
+                                        $query2 = "SELECT * FROM pacientes WHERE identificacion=$doc";
+                                        $paciente_query = mysqli_query($conn, $query2);
+                                        $paciente_info = mysqli_fetch_array($paciente_query);
+                                        $paciente_name = $paciente_info['nombre'];
+                                        ?>
                                         <tr>
                                             <td><?php echo $numero ?></td>
+                                            <td><?php echo $paciente_name?></td>
                                             <td><?php echo $row['doc_paciente']?></td>
                                             <td><?php echo $row['tipo'] ?></td>
                                             <td><?php echo $row['fecha'] ?></td>
@@ -81,10 +89,10 @@
                                                 <a href="edit_ex.php?examen_id=<?php echo $row['examen_id'] ?>" class="btn btn-secondary">
                                                     <i class="fas fa-marker"></i>
                                                 </a>
-                                                <a href="ex_red.php?examen_id=<?php echo $row['examen_id'] ?>" class="btn btn-danger">
+                                                <a href="del_ex.php?examen_id=<?php echo $row['examen_id'] ?>" class="btn btn-danger">
                                                     <i class="far fa-trash-alt"></i>
                                                 </a>
-                                                <a href="ex_red.php?examen_id=<?php echo $row['examen_id'] ?>" class="btn btn-success">
+                                                <a href="view_ex.php?examen_id=<?php echo $row['examen_id'] ?>" class="btn btn-success">
                                                     <i class="far fa-eye"></i>
                                                 </a>
                                             </td>
