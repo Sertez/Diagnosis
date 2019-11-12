@@ -8,8 +8,12 @@ function calculaedad($fechanacimiento)
 	$ano_diferencia  = date("Y") - $ano;
 	$mes_diferencia = date("m") - $mes;
 	$dia_diferencia   = date("d") - $dia;
-	if ($dia_diferencia < 0 || $mes_diferencia < 0)
-		$ano_diferencia--;
+	if ($mes_diferencia < 0){
+        $ano_diferencia--;
+    }else{
+        if($mes_diferencia == 0 and $dia_diferencia <0)
+        $ano_diferencia--;
+    }
 	return $ano_diferencia;
 }
 ?>
@@ -220,7 +224,7 @@ function calculaedad($fechanacimiento)
 												<a href="del_pac.php?paciente_id=<?php echo $row['paciente_id'] ?>" class="btn btn-danger">
 													<i class="far fa-trash-alt"></i>
 												</a>
-												<a href="pac_view.php?paciente_id=<?php echo $row['paciente_id'] ?>" class="btn btn-info">
+												<a href="view_pac.php?paciente_id=<?php echo $row['paciente_id'] ?>" class="btn btn-info">
 													<i class="fas fa-eye"></i>
 												</a>
 												<a href="examenes.php?paciente_id=<?php echo $row['paciente_id'] ?>" class="btn btn-primary">
