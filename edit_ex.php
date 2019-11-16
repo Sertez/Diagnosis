@@ -12,6 +12,14 @@
         if ($tipo="Parcial de Orina"){
             header("Location: p_orina.php?examen_id=$examen_id");
         }
+
+        if ($tipo="Microbiología"){
+            header("Location: m_bk.php?examen_id=$examen_id");
+        }
+
+        if ($tipo="Hematología"){
+            header("Location: h_hematologia.php?examen_id=$examen_id");
+        }
     }
 
 ?>
