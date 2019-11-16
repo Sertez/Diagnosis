@@ -19,6 +19,18 @@ if (isset($_GET['examen_id'])) {
         header("Location: examenes.php");
         die();
     }
+    if ($tipo="Microbiología"){
+        $query = "DELETE FROM m_bk WHERE examen_id = $examen_id";
+        $result=mysqli_query($conn,$query);
+        header("Location: examenes.php");
+        die();
+    }
+    if ($tipo="Hematología"){
+        $query = "DELETE FROM h_hematologia WHERE examen_id = $examen_id";
+        $result=mysqli_query($conn,$query);
+        header("Location: examenes.php");
+        die();
+    }
 
     $_SESSION['message'] = 'Error Inesperado';
     $_SESSION['message_type'] = 'danger';
