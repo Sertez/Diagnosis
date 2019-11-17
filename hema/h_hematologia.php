@@ -49,7 +49,7 @@
         <form action="h_hematologia_save.php?examen_id=<?php echo $_GET['examen_id'] ?>" method="POST">
             <div class="card card-body">
                 <div class="card-header" id="extitle">
-                    Crear Hematología
+                    Crear o Editar Hematología
                 </div>
                 <div class="row">
                     <div class="col-sm-6">
