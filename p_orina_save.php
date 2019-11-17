@@ -46,14 +46,14 @@ if ((isset($_POST['p_orina_save'])) and (isset($_GET['examen_id']))){
     if (!$result) {
     $_SESSION['message'] = 'Error Inesperado';
     $_SESSION['message_type'] = 'danger';
-    header("Location: examenes.php");
+    $previous_page = $_SESSION['current_page'];
+    header("Location: $previous_page");
     die();
     }
         
     }   
-    $_SESSION['message'] = 'Operacion relizada con éxito';
-    $_SESSION['message_type'] = 'success';
-    header("Location: examenes.php");
+    $previous_page = $_SESSION['current_page'];
+    header("Location: $previous_page");
     
 }
 

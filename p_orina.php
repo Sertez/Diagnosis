@@ -1,6 +1,7 @@
 <?php include("db.php"); ?>
 <?php include("includes/header.php"); ?>
 <?php if (isset($_GET['examen_id'])) {
+    $previous_page = $_SESSION['current_page'];
     $id1= $_GET['examen_id'];
     $color1= "";
     $aspecto1= "";
@@ -48,7 +49,6 @@
         $bacteriologo1= $row['bacteriologo']; 
     }
     ?>
-    
     <div class="container p-4 con" id="contenido">
         <form action="p_orina_save.php?examen_id=<?php echo $_GET['examen_id'] ?>" method="POST">
             <div class="card card-body">
@@ -216,8 +216,8 @@
             </div>
         </form>
     </div>
-<?php } else {
-    header("Location:examenes.php");
+<?php } else {    
+    header("location: header.php");
     die();
 }
 ?>
