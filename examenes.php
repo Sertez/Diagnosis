@@ -44,8 +44,8 @@ $_SESSION['current_page'] = $url;?>
                                     <label for="tipo_examen">Examen a Realizar</label>
                                     <select class="form-control" name="tipo">
                                         <option value="Parcial de Orina">Parcial de Orina</option>
-                                        <option value="Hemograma">Hemograma</option>
-                                        <option value="Coprologico">Coprologico</option>
+					<option value="Microbiología">Microbiología</option>
+                                        <option value="Hematología">Hematología</option>
                                     </select>
                                 </div>
                                 <div class="form-group">
