@@ -31,6 +31,18 @@ if (isset($_GET['examen_id'])) {
         header("Location: examenes.php");
         die();
     }
+    if ($tipo="Urocultivo"){
+        $query = "DELETE FROM m_uro_positivo WHERE examen_id = $examen_id";
+        $result=mysqli_query($conn,$query);
+        header("Location: examenes.php");
+        die();
+    }    
+    if ($tipo="Inmunología"){
+        $query = "DELETE FROM i_gravindex WHERE examen_id = $examen_id";
+        $result=mysqli_query($conn,$query);
+        header("Location: examenes.php");
+        die();
+    }
 
     $_SESSION['message'] = 'Error Inesperado';
     $_SESSION['message_type'] = 'danger';
