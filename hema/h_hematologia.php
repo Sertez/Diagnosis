@@ -3,22 +3,22 @@
 <?php if (isset($_GET['examen_id'])) {
     $id1= $_GET['examen_id'];
     $hematocrito1= "";
-    $hemoglobina1= "";   
+    $hemoglobina1= "";
     $leucocitos1= "";
     $neutrofilos1= "";
     $linfocitos1= "";
     $eosinofilos1= "";
     $monocitos1= "";
     $basofilas1= "";
-    $plaquetas1= "";
+    $plaquetas1= "";    
     $reticulocitos1= "";
-    $rh1= "";
     $vsg1= "";
     $t_sangria1= "";
     $t_coagulacion1= "";
-    $t_protombina1= "";
+    $t_protrombina1= "";
     $t_p__tromboplastina1= "";
     $grupo1= "";
+    $rh1= "";
     $bacteriologo1= "";
     $query = "SELECT * FROM h_hematologia WHERE examen_id='$id1'";
     $result2 = mysqli_query($conn, $query);
@@ -26,18 +26,18 @@
         $row = mysqli_fetch_array($result2);
         $hematocrito1= $row['hematocrito'];
         $hemoglobina1= $row['hemoglobina'];
-	    $leucocitos1= $row['leucocitos'];
-        $neutrofilos1= $row['neutrofilos'];
+        $leucocitos1= $row['leucocitos'];
+	    $neutrofilos1= $row['neutrofilos'];
         $linfocitos1= $row['linfocitos'];
         $eosinofilos1= $row['eosinofilos'];
         $monocitos1= $row['monocitos'];
         $basofilas1= $row['basofilas'];
         $plaquetas1= $row['plaquetas'];
-        $reticulocitos1= $row['reticulocitos'];        
+        $reticulocitos1= $row['reticulocitos'];
 	    $vsg1= $row['vsg'];
         $t_sangria1= $row['t_sangria'];
         $t_coagulacion1= $row['t_coagulacion'];
-        $t_protombina1= $row['t_protombina'];
+        $t_protrombina1= $row['t_protrombina'];
         $t_p__tromboplastina1= $row['t_p__tromboplastina'];
         $grupo1= $row['grupo'];
         $rh1= $row['rh'];
@@ -70,8 +70,8 @@
                                 <div class="form-group row">
                                     <label for="hematocrito" class="col-sm-6 col-form-label">Hematocrito</label>
                                     <div class="col-sm-6">
-                                        <input type="text" name="hematocrito" value="<?php echo $hematocrito1?>" class="form-control" placeholder="hematocrito" autofocus>
-                                    </div>
+                                        <input type="text" name="hematocrito" value="<?php echo $hematocrito1?>" class="form-control" placeholder="hematocrito" autofocus>                                        
+                                    </div>                                    
                                 </div>
                                 <div class="form-group row">
                                     <label for="hemoglobina" class="col-sm-6 col-form-label">Hemoglobina</label>
@@ -120,13 +120,7 @@
                                     <div class="col-sm-6">
                                         <input type="text" name="plaquetas" value="<?php echo $plaquetas1?>" class="form-control" placeholder="plaquetas" autofocus>
                                     </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label for="reticulocitos" class="col-sm-6 col-form-label">Reticulocitos</label>
-                                    <div class="col-sm-6">
-                                        <input type="text" name="reticulocitos" value="<?php echo $reticulocitos1?>" class="form-control" placeholder="reticulocitos" autofocus>
-                                    </div>
-                                </div>
+                                </div>                                
                             </div>
                         </div>
                     </div>
@@ -135,7 +129,13 @@
                             <div class="card-header" id="cardtitle">
                                 Otros Exámenes
                             </div>
-                            <div class="card-body">                                
+                            <div class="card-body">
+                                <div class="form-group row">
+                                    <label for="reticulocitos" class="col-sm-6 col-form-label">Reticulocitos</label>
+                                    <div class="col-sm-6">
+                                        <input type="text" name="reticulocitos" value="<?php echo $reticulocitos1?>" class="form-control" placeholder="reticulocitos" autofocus>
+                                    </div>
+                                </div>
                                 <div class="form-group row">
                                     <label for="vsg" class="col-sm-6 col-form-label">V.S.G</label>
                                     <div class="col-sm-6">
@@ -143,37 +143,37 @@
                                     </div>
                                 </div>
                                 <div class="form-group row">
-                                    <label for="t_sangria" class="col-sm-6 col-form-label">Tiempod de Sangria</label>
+                                    <label for="t_sangria" class="col-sm-6 col-form-label">Tiempo de Sangría</label>
                                     <div class="col-sm-6">
-                                        <input type="text" name="t_sangria" value="<?php echo $t_sangria1?>" class="form-control" placeholder="t_sangria" autofocus>
-                                    </div>
-                                </div>                               
-                                <div class="form-group row">
-                                    <label for="t_coagulacion" class="col-sm-6 col-form-label">Tiempo de Coagulacion</label>
-                                    <div class="col-sm-6">
-                                        <input type="text" name="t_coagulacion" value="<?php echo $t_coagulacion1?>" class="form-control" placeholder="t_coagulacion" autofocus>
+                                        <input type="text" name="t_sangria" value="<?php echo $t_sangria1?>" class="form-control" placeholder="sangria" autofocus>
                                     </div>
                                 </div>
                                 <div class="form-group row">
-                                    <label for="t_protombina" class="col-sm-6 col-form-label">Tiempo de Protombina</label>
+                                    <label for="t_coagulacion" class="col-sm-6 col-form-label">Tiempo de Coagulación</label>
                                     <div class="col-sm-6">
-                                        <input type="text" name="t_protombina" value="<?php echo $t_protombina1?>"class="form-control" placeholder="t_protombina" autofocus>
+                                        <input type="text" name="t_coagulacion" value="<?php echo $t_coagulacion1?>" class="form-control" placeholder="coagulacion" autofocus>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="t_protrombina" class="col-sm-6 col-form-label">Tiempo de Protombina</label>
+                                    <div class="col-sm-6">
+                                        <input type="text" name="t_protrombina" value="<?php echo $t_protrombina1?>" class="form-control" placeholder="protrombina" autofocus>
                                     </div>
                                 </div>
                                 <div class="form-group row">
                                     <label for="t_p__tromboplastina" class="col-sm-6 col-form-label">Tiempo Parcial de Tromboplastina</label>
                                     <div class="col-sm-6">
-                                        <input type="text" name="t_p__tromboplastina" value="<?php echo $t_p__tromboplastina1?>" class="form-control" placeholder="t_p__tromboplastina" autofocus>
+                                        <input type="text" name="t_p__tromboplastina" value="<?php echo $t_p__tromboplastina1?>"class="form-control" placeholder="tromboplastina" autofocus>
                                     </div>
                                 </div>
                                 <div class="form-group row">
-                                    <label for="grupo" class="col-sm-6 col-form-label">Grupo</label>
+                                    <label for="grupo" class="col-sm-6 col-form-label">Grupo Sanguíneo</label>
                                     <div class="col-sm-6">
                                         <input type="text" name="grupo" value="<?php echo $grupo1?>" class="form-control" placeholder="grupo" autofocus>
                                     </div>
                                 </div>
                                 <div class="form-group row">
-                                    <label for="rh" class="col-sm-6 col-form-label">RH</label>
+                                    <label for="rh" class="col-sm-6 col-form-label">Factor RH</label>
                                     <div class="col-sm-6">
                                         <input type="text" name="rh" value="<?php echo $rh1?>" class="form-control" placeholder="rh" autofocus>
                                     </div>
@@ -181,7 +181,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>                
                 <div class="form-group mb-2 row" id="bac_space">
                     <label for="bacteriologo" class="col-form-label">Bacteriologo</label>
                     <div class="mx-sm-4 mb-2">
