@@ -26,5 +26,25 @@
             header("Location: i_gravindex_view.php?examen_id=$examen_id");
             die();
         }
+        if ($tipo=="Química"){
+            header("Location: q_quimica_view.php?examen_id=$examen_id");
+            die();
+        }
+        if ($tipo=="PT PTT"){
+            header("Location: h_pt_ptt_view.php?examen_id=$examen_id");
+            die();
+        }
+        if ($tipo=="Ionograma"){
+            header("Location: q_ionograma_view.php?examen_id=$examen_id");
+            die();
+        }
+        if ($tipo=="HTO HB"){
+            header("Location: h_hto_hb_view.php?examen_id=$examen_id");
+            die();
+        }
+        if ($tipo=="UrocultivoN"){
+            header("Location: m_uro_negativo_view.php?examen_id=$examen_id");
+            die();
+        }
     }
 ?>
