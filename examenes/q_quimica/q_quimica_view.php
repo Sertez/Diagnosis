@@ -115,24 +115,24 @@ function calculaedad($fechanacimiento)
                                 <div class="col-sm-4">
                                     <input type="text" name="colesterol_hdl" class="form-control" value="<?php echo $colesterol_hdl ?>" readonly>
                                 </div>
-                                <label for="ref" class="col-sm-4 col-form-label">BAJO : MENOR DE 40 ALTO : MAYOR DE 60</label>
+                                <label for="ref" class="col-sm-4 col-form-label">Bajo : Menor DE 40 Alto : Mayor de 60</label>
                             </div>
                             <div class="form-group row">
                                 <label for="colesterol_ldl" class="col-sm-4 col-form-label">Colesterol LDL</label>
                                 <div class="col-sm-4">
                                     <input type="text" name="colesterol_ldl" class="form-control" value="<?php echo $colesterol_ldl ?>" readonly>
                                 </div>
-                                <label for="ref" class="col-sm-4 col-form-label">OPTIMO: MENOR DE 100 | CERCA DE LO OPTIMO: 100 - 129 | ALTO LIMITE: 130 - 159 | ALTO: 160 - 189 | MUY ALTO: MAYOR DE 190</label>
+                                <label for="ref" class="col-sm-4 col-form-label">Óptimo: Menor de 100 | Cerca de lo óptimo: 100 - 129 | Alto límite: 130 - 159 | Alto: 160 - 189 | Muy alto: Mayor de 190</label>
                             </div>
                             <div class="form-group row">
-                                <label for="trigliceridos" class="col-sm-4 col-form-label">Trigliceridos</label>
+                                <label for="trigliceridos" class="col-sm-4 col-form-label">Triglicéridos</label>
                                 <div class="col-sm-4">
                                     <input type="text" name="trigliceridos" class="form-control" value="<?php echo $trigliceridos ?>" readonly>
                                 </div>
-                                <label for="ref" class="col-sm-4 col-form-label">HASTA 170 mg/dl</label>
+                                <label for="ref" class="col-sm-4 col-form-label">Hasta 170 mg/dl</label>
                             </div>
                             <div class="form-group row">
-                                <label for="acido_urico" class="col-sm-4 col-form-label">Ácido Urico</label>
+                                <label for="acido_urico" class="col-sm-4 col-form-label">Ácido Úrico</label>
                                 <div class="col-sm-4">
                                     <input type="text" name="acido_urico" class="form-control" value="<?php echo $acido_urico ?>" readonly>
                                 </div>
@@ -153,7 +153,7 @@ function calculaedad($fechanacimiento)
                                 <label for="ref" class="col-sm-4 col-form-label">0.90 - 1.30mg/dl</label>
                             </div>
                             <div class="form-group row">
-                                <label for="tasa_filtracion_glomerular" class="col-sm-4 col-form-label">Tasa de Filtracion</label>
+                                <label for="tasa_filtracion_glomerular" class="col-sm-4 col-form-label">Tasa de Filtración</label>
                                 <div class="col-sm-4">
                                     <input type="text" name="tasa_filtracion_glomerular" class="form-control" value="<?php echo $tasa_filtracion_glomerular ?>" readonly>
                                 </div>
@@ -167,7 +167,7 @@ function calculaedad($fechanacimiento)
                                 <label for="ref" class="col-sm-4 col-form-label">45.00 - 129.00</label>
                             </div>
                             <div class="form-group row">
-                                <label for="alanino_aminotrans" class="col-sm-4 col-form-label">Alanino Aminotransferasa</label>
+                                <label for="alanino_aminotrans" class="col-sm-4 col-form-label">Alanina Aminotransferasa</label>
                                 <div class="col-sm-4">
                                     <input type="text" name="alanino_aminotrans" class="form-control" value="<?php echo $alanino_aminotrans ?>" readonly>
                                 </div>
