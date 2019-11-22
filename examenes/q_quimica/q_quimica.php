@@ -60,73 +60,73 @@
                                 <div class="form-group row">
                                     <label for="glicemia" class="col-sm-6 col-form-label">Glicemia</label>
                                     <div class="col-sm-6">
-                                        <input type="text" name="glicemia" value="<?php echo $glicemia1 ?>" class="form-control" placeholder="glicemia" autofocus>
+                                        <input type="text" name="glicemia" value="<?php echo $glicemia1 ?>" class="form-control" placeholder="" autofocus>
                                     </div>
                                 </div>
                                 <div class="form-group row">
                                     <label for="colesterol" class="col-sm-6 col-form-label">Colesterol</label>
                                     <div class="col-sm-6">
-                                        <input type="text" name="colesterol" value="<?php echo $colesterol1 ?>" class="form-control" placeholder="colesterol" autofocus>
+                                        <input type="text" name="colesterol" value="<?php echo $colesterol1 ?>" class="form-control" placeholder="" autofocus>
                                     </div>
                                 </div>
                                 <div class="form-group row">
                                     <label for="colesterol_hdl" class="col-sm-6 col-form-label">Colesterol HDL</label>
                                     <div class="col-sm-6">
-                                        <input type="text" name="colesterol_hdl" value="<?php echo $colesterol_hdl1 ?>" class="form-control" placeholder="colesterol_hdl" autofocus>
+                                        <input type="text" name="colesterol_hdl" value="<?php echo $colesterol_hdl1 ?>" class="form-control" placeholder="" autofocus>
                                     </div>
                                 </div>
                                 <div class="form-group row">
                                     <label for="colesterol_ldl" class="col-sm-6 col-form-label">Colesterol LDL</label>
                                     <div class="col-sm-6">
-                                        <input type="text" name="colesterol_ldl" value="<?php echo $colesterol_ldl1 ?>" class="form-control" placeholder="colesterol_ldl" autofocus>
+                                        <input type="text" name="colesterol_ldl" value="<?php echo $colesterol_ldl1 ?>" class="form-control" placeholder="" autofocus>
                                     </div>
                                 </div>
                                 <div class="form-group row">
                                     <label for="trigliceridos" class="col-sm-6 col-form-label">Triglicéridos</label>
                                     <div class="col-sm-6">
-                                        <input type="text" name="trigliceridos" value="<?php echo $trigliceridos1 ?>" class="form-control" placeholder="trigliceridos" autofocus>
+                                        <input type="text" name="trigliceridos" value="<?php echo $trigliceridos1 ?>" class="form-control" placeholder="" autofocus>
                                     </div>
                                 </div>
                                 <div class="form-group row">
                                     <label for="acido_urico" class="col-sm-6 col-form-label">Acido Úrico</label>
                                     <div class="col-sm-6">
-                                        <input type="text" name="acido_urico" value="<?php echo $acido_urico1 ?>" class="form-control" placeholder="acido_urico" autofocus>
+                                        <input type="text" name="acido_urico" value="<?php echo $acido_urico1 ?>" class="form-control" placeholder="" autofocus>
                                     </div>
                                 </div>
                                 <div class="form-group row">
                                     <label for="nitrogeno_ureico" class="col-sm-6 col-form-label">Nitrógeno Uerico</label>
                                     <div class="col-sm-6">
-                                        <input type="text" name="nitrogeno_ureico" value="<?php echo $nitrogeno_ureico1 ?>" class="form-control" placeholder="nitrogeno_ureico" autofocus>
+                                        <input type="text" name="nitrogeno_ureico" value="<?php echo $nitrogeno_ureico1 ?>" class="form-control" placeholder="" autofocus>
                                     </div>
                                 </div>
                                 <div class="form-group row">
                                     <label for="creatinina" class="col-sm-6 col-form-label">Creatinina</label>
                                     <div class="col-sm-6">
-                                        <input type="text" name="creatinina" value="<?php echo $creatinina1 ?>" class="form-control" placeholder="creatinina" autofocus>
+                                        <input type="text" name="creatinina" value="<?php echo $creatinina1 ?>" class="form-control" placeholder="" autofocus>
                                     </div>
                                 </div>
                                 <div class="form-group row">
                                     <label for="tasa_filtracion_glomerular" class="col-sm-6 col-form-label">Tasa de Filtración Glomerular</label>
                                     <div class="col-sm-6">
-                                        <input type="text" name="tasa_filtracion_glomerular" value="<?php echo $tasa_filtracion_glomerular1 ?>" class="form-control" placeholder="tasa_filtracion_glomerular" autofocus>
+                                        <input type="text" name="tasa_filtracion_glomerular" value="<?php echo $tasa_filtracion_glomerular1 ?>" class="form-control" placeholder="" autofocus>
                                     </div>
                                 </div>
                                 <div class="form-group row">
                                     <label for="fosfatasa_alcalina" class="col-sm-6 col-form-label">Fosfatasa Alcalina</label>
                                     <div class="col-sm-6">
-                                        <input type="text" name="fosfatasa_alcalina" value="<?php echo $fosfatasa_alcalina1 ?>" class="form-control" placeholder="fosfatasa_alcalina" autofocus>
+                                        <input type="text" name="fosfatasa_alcalina" value="<?php echo $fosfatasa_alcalina1 ?>" class="form-control" placeholder="" autofocus>
                                     </div>
                                 </div>
                                 <div class="form-group row">
                                     <label for="alanino_aminotrans" class="col-sm-6 col-form-label">Alanino Aminotransferasa</label>
                                     <div class="col-sm-6">
-                                        <input type="text" name="alanino_aminotrans" value="<?php echo $alanino_aminotrans1 ?>" class="form-control" placeholder="alanino_aminotrans" autofocus>
+                                        <input type="text" name="alanino_aminotrans" value="<?php echo $alanino_aminotrans1 ?>" class="form-control" placeholder="" autofocus>
                                     </div>
                                 </div>
                                 <div class="form-group row">
                                     <label for="aspartato_aminotrans" class="col-sm-6 col-form-label">Aspartato Aminotransferasa</label>
                                     <div class="col-sm-6">
-                                        <input type="text" name="aspartato_aminotrans" value="<?php echo $aspartato_aminotrans1 ?>" class="form-control" placeholder="aspartato_aminotrans" autofocus>
+                                        <input type="text" name="aspartato_aminotrans" value="<?php echo $aspartato_aminotrans1 ?>" class="form-control" placeholder="" autofocus>
                                     </div>
                                 </div>
                             </div>
