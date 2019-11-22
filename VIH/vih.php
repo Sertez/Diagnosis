@@ -17,7 +17,7 @@
         <form action="vih_save.php?examen_id=<?php echo $_GET['examen_id'] ?>" method="POST">
             <div class="card card-body">
                 <div class="card-header" id="extitle">
-                    Inmunologia otra vez x2
+                    VIH
                 </div>
                 <div class="row">
                     <div class="col-sm-6">
@@ -32,7 +32,7 @@
                             } ?>
                         <div class="card" id="formulario">
                             <div class="card-header" id="cardtitle">
-                                Examenes
+                                Examen
                             </div>
                             <div class="card-body">
                                 <div class="form-group row">
