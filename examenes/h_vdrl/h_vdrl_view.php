@@ -82,7 +82,7 @@ function calculaedad($fechanacimiento)
                 <div class="col-sm-6">
                     <div class="card" id="formulario">
                         <div class="card-header" id="cardtitle">
-                            Hematología
+                            Examen
                         </div>
                         <div class="card-body">
                             <div class="form-group row">
