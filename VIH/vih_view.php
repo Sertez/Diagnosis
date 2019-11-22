@@ -22,7 +22,7 @@ function calculaedad($fechanacimiento)
     <div class="container p-4 con" id="contenido">
         <div class="card card-body">
             <div class="card-header" id="extitle">
-                No c we x2
+                VIH
             </div>
             <?php
                 $examen_id = $_GET['examen_id'];
@@ -82,7 +82,7 @@ function calculaedad($fechanacimiento)
                 <div class="col-sm-6">
                     <div class="card" id="formulario">
                         <div class="card-header" id="cardtitle">
-                            Hematologia
+                            Examen
                         </div>
                         <div class="card-body">
                             <div class="form-group row">
