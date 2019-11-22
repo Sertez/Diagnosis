@@ -147,13 +147,13 @@ function calculaedad($fechanacimiento)
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label for="ceftriazona" class="col-sm-6 col-form-label">Ceftriazona</label>
+                                <label for="ceftriazona" class="col-sm-6 col-form-label">Ceftriaxona</label>
                                 <div class="col-sm-6">
                                     <input type="text" name="ceftriazona" class="form-control" value="<?php echo $ceftriazona ?>" readonly>
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label for="amoxacilina" class="col-sm-6 col-form-label">Amoxacilina</label>
+                                <label for="amoxacilina" class="col-sm-6 col-form-label">Amoxicilina-ácido Clavuánico</label>
                                 <div class="col-sm-6">
                                     <input type="text" name="amoxacilina" class="form-control" value="<?php echo $amoxacilina ?>" readonly>
                                 </div>
@@ -165,7 +165,7 @@ function calculaedad($fechanacimiento)
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label for="cefepina" class="col-sm-6 col-form-label">Cefepina</label>
+                                <label for="cefepina" class="col-sm-6 col-form-label">Cefepima</label>
                                 <div class="col-sm-6">
                                     <input type="text" name="cefepina" class="form-control" value="<?php echo $cefepina ?>" readonly>
                                 </div>
@@ -175,7 +175,7 @@ function calculaedad($fechanacimiento)
                 </div>
             </div>
             <div class="form-group mb-2 row" id="bac_space">
-                <label for="bacteriologo" class="col-form-label">Bacteriologo</label>
+                <label for="bacteriologo" class="col-form-label">Bacteriólogo</label>
                 <input type="text" name="cilindros" class="form-control" value="<?php echo $bacteriologo ?>" readonly>
             </div>
         </div>
