@@ -86,7 +86,7 @@
                                     </div>
                                 </div>
                                 <div class="form-group row">
-                                    <label for="neutrofilos" class="col-sm-6 col-form-label">Neutrofilos</label>
+                                    <label for="neutrofilos" class="col-sm-6 col-form-label">Neutrófilos</label>
                                     <div class="col-sm-6">
                                         <input type="text" name="neutrofilos" value="<?php echo $neutrofilos1 ?>" class="form-control" placeholder="" autofocus>
                                     </div>
@@ -98,7 +98,7 @@
                                     </div>
                                 </div>
                                 <div class="form-group row">
-                                    <label for="eosinofilos" class="col-sm-6 col-form-label">Eosinofilos</label>
+                                    <label for="eosinofilos" class="col-sm-6 col-form-label">Eosinófilos</label>
                                     <div class="col-sm-6">
                                         <input type="text" name="eosinofilos" value="<?php echo $eosinofilos1 ?>" class="form-control" placeholder="" autofocus>
                                     </div>
@@ -110,7 +110,7 @@
                                     </div>
                                 </div>
                                 <div class="form-group row">
-                                    <label for="basofilas" class="col-sm-6 col-form-label">Basofilas</label>
+                                    <label for="basofilas" class="col-sm-6 col-form-label">Basófilos</label>
                                     <div class="col-sm-6">
                                         <input type="text" name="basofilas" value="<?php echo $basofilas1 ?>" class="form-control" placeholder="" autofocus>
                                     </div>
@@ -183,7 +183,7 @@
                     </div>
                 </div>
                 <div class="form-group mb-2 row" id="bac_space">
-                    <label for="bacteriologo" class="col-form-label">Bacteriologo</label>
+                    <label for="bacteriologo" class="col-form-label">Bacteriólogo</label>
                     <div class="mx-sm-4 mb-2">
                         <select class="form-control" id="sel_width" name="bacteriologo">
                             <option selected="true" disabled="disabled" value="<?php echo $bacteriologo1 ?>"><?php echo $bacteriologo1 ?></option>
