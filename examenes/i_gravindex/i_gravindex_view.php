@@ -86,7 +86,7 @@ function calculaedad($fechanacimiento)
                         </div>
                         <div class="card-body">
                             <div class="form-group row">
-                                <label for="BK" class="col-sm-6 col-form-label">Gravindex</label>
+                                <label for="BK" class="col-sm-6 col-form-label">Gravindex en Suero</label>
                                 <div class="col-sm-6">
                                     <input type="text" name="gravindex" class="form-control" value="<?php echo $gravindex ?>" readonly>
                                 </div>
