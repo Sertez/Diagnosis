@@ -139,7 +139,7 @@
                                 <div class="form-group row">
                                     <label for="vsg" class="col-sm-6 col-form-label">V.S.G</label>
                                     <div class="col-sm-6">
-                                        <input type="text" name="vsg" value="<?php echo $vsg1 ?>" class="form-control" placeholder="vsg" autofocus>
+                                        <input type="text" name="vsg" value="<?php echo $vsg1 ?>" class="form-control" placeholder="" autofocus>
                                     </div>
                                 </div>
                                 <div class="form-group row">
