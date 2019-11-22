@@ -86,7 +86,7 @@ function calculaedad($fechanacimiento)
                         </div>
                         <div class="card-body">
                             <div class="form-group row">
-                                <label for="BK" class="col-sm-6 col-form-label">Baciloscopia</label>
+                                <label for="BK" class="col-sm-6 col-form-label">Baciloscopia Seriada</label>
                                 <div class="col-sm-6">
                                     <input type="text" name="baciloscopia" class="form-control" value="<?php echo $baciloscopia ?>" readonly>
                                 </div>
