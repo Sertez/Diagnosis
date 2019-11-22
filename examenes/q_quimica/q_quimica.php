@@ -82,13 +82,13 @@
                                     </div>
                                 </div>
                                 <div class="form-group row">
-                                    <label for="trigliceridos" class="col-sm-6 col-form-label">Trigliceridos</label>
+                                    <label for="trigliceridos" class="col-sm-6 col-form-label">Triglicéridos</label>
                                     <div class="col-sm-6">
                                         <input type="text" name="trigliceridos" value="<?php echo $trigliceridos1 ?>" class="form-control" placeholder="trigliceridos" autofocus>
                                     </div>
                                 </div>
                                 <div class="form-group row">
-                                    <label for="acido_urico" class="col-sm-6 col-form-label">Acido Urico</label>
+                                    <label for="acido_urico" class="col-sm-6 col-form-label">Acido Úrico</label>
                                     <div class="col-sm-6">
                                         <input type="text" name="acido_urico" value="<?php echo $acido_urico1 ?>" class="form-control" placeholder="acido_urico" autofocus>
                                     </div>
@@ -118,13 +118,13 @@
                                     </div>
                                 </div>
                                 <div class="form-group row">
-                                    <label for="alanino_aminotrans" class="col-sm-6 col-form-label">Alanino Aminotrans</label>
+                                    <label for="alanino_aminotrans" class="col-sm-6 col-form-label">Alanino Aminotransferasa</label>
                                     <div class="col-sm-6">
                                         <input type="text" name="alanino_aminotrans" value="<?php echo $alanino_aminotrans1 ?>" class="form-control" placeholder="alanino_aminotrans" autofocus>
                                     </div>
                                 </div>
                                 <div class="form-group row">
-                                    <label for="aspartato_aminotrans" class="col-sm-6 col-form-label">Aspartato Aminotrans</label>
+                                    <label for="aspartato_aminotrans" class="col-sm-6 col-form-label">Aspartato Aminotransferasa</label>
                                     <div class="col-sm-6">
                                         <input type="text" name="aspartato_aminotrans" value="<?php echo $aspartato_aminotrans1 ?>" class="form-control" placeholder="aspartato_aminotrans" autofocus>
                                     </div>
