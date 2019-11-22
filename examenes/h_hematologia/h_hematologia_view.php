@@ -122,7 +122,7 @@ function calculaedad($fechanacimiento)
                                 <label for="ref" class="col-sm-4 col-form-label">5.000-10.000 /mm</label>
                             </div>
                             <div class="form-group row">
-                                <label for="neutrofilos" class="col-sm-4 col-form-label">Neutrofilos</label>
+                                <label for="neutrofilos" class="col-sm-4 col-form-label">Neutrófilos</label>
                                 <div class="col-sm-4">
                                     <input type="text" name="neutrofilos" class="form-control" value="<?php echo $neutrofilos ?>" readonly>
                                 </div>
@@ -136,7 +136,7 @@ function calculaedad($fechanacimiento)
                                 <label for="ref" class="col-sm-4 col-form-label">20-40%</label>
                             </div>
                             <div class="form-group row">
-                                <label for="eosinofilos" class="col-sm-4 col-form-label">Eosinofilos</label>
+                                <label for="eosinofilos" class="col-sm-4 col-form-label">Eosinófilos</label>
                                 <div class="col-sm-4">
                                     <input type="text" name="eosinofilos" class="form-control" value="<?php echo $eosinofilos ?>" readonly>
                                 </div>
@@ -150,7 +150,7 @@ function calculaedad($fechanacimiento)
                                 <label for="ref" class="col-sm-4 col-form-label">0-5%</label>
                             </div>
                             <div class="form-group row">
-                                <label for="basofilas" class="col-sm-4 col-form-label">Basofilas</label>
+                                <label for="basofilas" class="col-sm-4 col-form-label">Basófilos</label>
                                 <div class="col-sm-4">
                                     <input type="text" name="basofilas" class="form-control" value="<?php echo $basofilas ?>" readonly>
                                 </div>
@@ -232,7 +232,7 @@ function calculaedad($fechanacimiento)
                 </div>
             </div>
             <div class="form-group mb-2 row" id="bac_space">
-                <label for="bacteriologo" class="col-form-label">Bacteriologo</label>
+                <label for="bacteriologo" class="col-form-label">Bacteriólogo</label>
                 <input type="text" name="rh" class="form-control" value="<?php echo $bacteriologo ?>" readonly>
             </div>
         </div>
