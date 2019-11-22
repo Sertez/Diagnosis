@@ -58,13 +58,13 @@
                                 <div class="form-group row">
                                     <label for="polimorfonucleares" class="col-sm-6 col-form-label">Polimorfonucleares</label>
                                     <div class="col-sm-6">
-                                        <input type="text" name="polimorfonucleares" value="<?php echo $polimorfonucleares1?>" class="form-control" placeholder="polimorfonucleares" autofocus>
+                                        <input type="text" name="polimorfonucleares" value="<?php echo $polimorfonucleares1?>" class="form-control" placeholder="" autofocus>
                                     </div>
                                 </div>
                                 <div class="form-group row">
                                     <label for="gram" class="col-sm-6 col-form-label">Gram</label>
                                     <div class="col-sm-6">
-                                        <input type="text" name="gram" value="<?php echo $gram1?>" class="form-control" placeholder="gram" autofocus>
+                                        <input type="text" name="gram" value="<?php echo $gram1?>" class="form-control" placeholder="" autofocus>
                                     </div>
                                 </div>    
                             </div>
@@ -79,55 +79,55 @@
                             <div class="form-group row">
                                     <label for="amikacina" class="col-sm-6 col-form-label">Amikacina</label>
                                     <div class="col-sm-6">
-                                        <input type="text" name="amikacina" value="<?php echo $amikacina1?>" class="form-control" placeholder="amikacina" autofocus>
+                                        <input type="text" name="amikacina" value="<?php echo $amikacina1?>" class="form-control" placeholder="" autofocus>
                                     </div>
                                 </div>
                                 <div class="form-group row">
                                     <label for="gentamicina" class="col-sm-6 col-form-label">Gentamicina</label>
                                     <div class="col-sm-6">
-                                        <input type="text" name="gentamicina" value="<?php echo $gentamicina1?>" class="form-control" placeholder="gentamicina" autofocus>
+                                        <input type="text" name="gentamicina" value="<?php echo $gentamicina1?>" class="form-control" placeholder="" autofocus>
                                     </div>
                                 </div>
                                 <div class="form-group row">
                                     <label for="imipenem" class="col-sm-6 col-form-label">Imipenem</label>
                                     <div class="col-sm-6">
-                                        <input type="text" name="imipenem" value="<?php echo $imipenem1?>" class="form-control" placeholder="imipenem" autofocus>
+                                        <input type="text" name="imipenem" value="<?php echo $imipenem1?>" class="form-control" placeholder="" autofocus>
                                     </div>
                                 </div>
                                 <div class="form-group row">
                                     <label for="meropenem" class="col-sm-6 col-form-label">Meropenem</label>
                                     <div class="col-sm-6">
-                                        <input type="text" name="meropenem" value="<?php echo $meropenem1?>" class="form-control" placeholder="meropenem" autofocus>
+                                        <input type="text" name="meropenem" value="<?php echo $meropenem1?>" class="form-control" placeholder="" autofocus>
                                     </div>
                                 </div>
                                 <div class="form-group row">
                                     <label for="cefoxitina" class="col-sm-6 col-form-label">Cefoxitina</label>
                                     <div class="col-sm-6">
-                                        <input type="text" name="cefoxitina" value="<?php echo $cefoxitina1?>" class="form-control" placeholder="cefoxitina" autofocus>
+                                        <input type="text" name="cefoxitina" value="<?php echo $cefoxitina1?>" class="form-control" placeholder="" autofocus>
                                     </div>
                                 </div>
                                 <div class="form-group row">
                                     <label for="ceftriazona" class="col-sm-6 col-form-label">Ceftriaxona</label>
                                     <div class="col-sm-6">
-                                        <input type="text" name="ceftriazona" value="<?php echo $ceftriazona1?>" class="form-control" placeholder="ceftriazona" autofocus>
+                                        <input type="text" name="ceftriazona" value="<?php echo $ceftriazona1?>" class="form-control" placeholder="" autofocus>
                                     </div>
                                 </div>
                                 <div class="form-group row">
                                     <label for="amoxacilina" class="col-sm-6 col-form-label">Amoxicilina-ácido Clavuánico</label>
                                     <div class="col-sm-6">
-                                        <input type="text" name="amoxacilina" value="<?php echo $amoxacilina1?>" class="form-control" placeholder="amoxacilina" autofocus>
+                                        <input type="text" name="amoxacilina" value="<?php echo $amoxacilina1?>" class="form-control" placeholder="" autofocus>
                                     </div>
                                 </div>
                               <div class="form-group row">
                                     <label for="ampicilina" class="col-sm-6 col-form-label">Ampicilina</label>
                                     <div class="col-sm-6">
-                                        <input type="text" name="ampicilina" value="<?php echo $ampicilina1?>" class="form-control" placeholder="ampicilina" autofocus>
+                                        <input type="text" name="ampicilina" value="<?php echo $ampicilina1?>" class="form-control" placeholder="" autofocus>
                                     </div>
                                 </div>
                                 <div class="form-group row">
                                     <label for="cefepina" class="col-sm-6 col-form-label">Cefepima</label>
                                     <div class="col-sm-6">
-                                        <input type="text" name="cefepina" value="<?php echo $cefepina1?>" class="form-control" placeholder="cefepina" autofocus>
+                                        <input type="text" name="cefepina" value="<?php echo $cefepina1?>" class="form-control" placeholder="" autofocus>
                                     </div>
                                 </div>                                
                             </div>
