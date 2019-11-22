@@ -36,7 +36,7 @@
                             </div>
                             <div class="card-body">
                                 <div class="form-group row">
-                                    <label for="prueba" class="col-sm-6 col-form-label">PRUEBA RAPIDA DE VIH 1+2</label>
+                                    <label for="prueba" class="col-sm-6 col-form-label">Prueba rapida de VIH 1+2</label>
                                     <div class="col-sm-6">
                                         <input type="text" name="prueba" value="<?php echo $prueba1?>" class="form-control" placeholder="" autofocus>
                                     </div>

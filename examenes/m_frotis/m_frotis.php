@@ -87,7 +87,7 @@
                             </div>
                             <div class="card-body">
                                 <div class="form-group row">
-                                    <label for="gram" class="col-sm-6 col-form-label">Gram</label>
+                                    <label for="gram" class="col-sm-6 col-form-label">GRAM</label>
                                     <div class="col-sm-6">
                                         <input type="text" name="gram" value="<?php echo $gram1 ?>" class="form-control" placeholder="" autofocus>
                                     </div>
@@ -99,7 +99,7 @@
                                     </div>
                                 </div>
                                 <div class="form-group row">
-                                    <label for="celulas_guias" class="col-sm-6 col-form-label">Celulas Guías</label>
+                                    <label for="celulas_guias" class="col-sm-6 col-form-label">Células Guías</label>
                                     <div class="col-sm-6">
                                         <input type="text" name="celulas_guias" value="<?php echo $celulas_guias1 ?>" class="form-control" placeholder="" autofocus>
                                     </div>
@@ -114,7 +114,7 @@
                             </div>
                             <div class="card-body">
                                 <div class="form-group row">
-                                    <label for="cel_epiteliales" class="col-sm-6 col-form-label">Celulas Epiteliales</label>
+                                    <label for="cel_epiteliales" class="col-sm-6 col-form-label">Células Epiteliales</label>
                                     <div class="col-sm-6">
                                         <input type="text" name="cel_epiteliales" value="<?php echo $cel_epiteliales1 ?>" class="form-control" placeholder="" autofocus>
                                     </div>

@@ -46,14 +46,14 @@
                                     <div class="col-sm-4">
                                         <input type="text" name="colesterol" value="<?php echo $colesterol1 ?>" class="form-control" placeholder="" autofocus>
                                     </div>
-                                    <label for="ref" class="col-sm-4 col-form-label"> HASTA 200 mg/dl </label>
+                                    <label for="ref" class="col-sm-4 col-form-label"> Hasta 200 mg/dl </label>
                                 </div>
                                 <div class="form-group row">
                                     <label for="trigliceridos" class="col-sm-4 col-form-label">Trigliceridos</label>
                                     <div class="col-sm-4">
                                         <input type="text" name="trigliceridos" value="<?php echo $trigliceridos1 ?>" class="form-control" placeholder="" autofocus>
                                     </div>
-                                    <label for="ref" class="col-sm-4 col-form-label">HASTA 170 mg/dl</label>
+                                    <label for="ref" class="col-sm-4 col-form-label">Hasta 170 mg/dl</label>
                                 </div>
                                 <div class="form-group row">
                                     <label for="colesterol_hdl" class="col-sm-4 col-form-label">Colesterol HDL</label>
@@ -67,7 +67,7 @@
                                     <div class="col-sm-4">
                                         <input type="text" name="colesterol_ldl" value="<?php echo $colesterol_hdl1 ?>" class="form-control" placeholder="" autofocus>
                                     </div>
-                                    <label for="ref" class="col-sm-4 col-form-label">HASTA 129 mg/d </label>
+                                    <label for="ref" class="col-sm-4 col-form-label">Hasta 129 mg/d </label>
                                 </div>
                             </div>
                         </div>

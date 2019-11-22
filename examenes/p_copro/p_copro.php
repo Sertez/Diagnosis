@@ -223,37 +223,37 @@
                             </div>
                             <div class="card-body">
                                 <div class="form-group row">
-                                    <label for="h_ascaris" class="col-sm-6 col-form-label">H Ascaris</label>
+                                    <label for="h_ascaris" class="col-sm-6 col-form-label">H. Ascaris</label>
                                     <div class="col-sm-6">
                                         <input type="text" name="h_ascaris" value="<?php echo $h_ascaris1?>" class="form-control" placeholder="" autofocus>
                                     </div>
                                 </div>
                                 <div class="form-group row">
-                                    <label for="h_tricocefalo" class="col-sm-6 col-form-label">H Tricocefalo</label>
+                                    <label for="h_tricocefalo" class="col-sm-6 col-form-label">H. Tricocefalo</label>
                                     <div class="col-sm-6">
                                         <input type="text" name="h_tricocefalo" value="<?php echo $h_tricocefalo1?>" class="form-control" placeholder="" autofocus>
                                     </div>
                                 </div>
                                 <div class="form-group row">
-                                    <label for="h_uncinaria" class="col-sm-6 col-form-label">H Uncinaria</label>
+                                    <label for="h_uncinaria" class="col-sm-6 col-form-label">H. Uncinaria</label>
                                     <div class="col-sm-6">
                                         <input type="text" name="h_uncinaria" value="<?php echo $h_uncinaria1?>" class="form-control" placeholder="" autofocus>
                                     </div>
                                 </div>
                                 <div class="form-group row">
-                                    <label for="h_oxiuro" class="col-sm-6 col-form-label">H Oxiuro</label>
+                                    <label for="h_oxiuro" class="col-sm-6 col-form-label">H. Oxiuro</label>
                                     <div class="col-sm-6">
                                         <input type="text" name="h_oxiuro" value="<?php echo $h_oxiuro1?>" class="form-control" placeholder="" autofocus>
                                     </div>
                                 </div>
                                 <div class="form-group row">
-                                    <label for="h_tenia" class="col-sm-6 col-form-label">H Tenia S.P</label>
+                                    <label for="h_tenia" class="col-sm-6 col-form-label">H. Tenia S.P</label>
                                     <div class="col-sm-6">
                                         <input type="text" name="h_tenia" value="<?php echo $h_tenia1?>" class="form-control" placeholder="" autofocus>
                                     </div>
                                 </div>
                                 <div class="form-group row">
-                                    <label for="h_himenolepis_nana" class="col-sm-6 col-form-label">H Himenolepis Nana</label>
+                                    <label for="h_himenolepis_nana" class="col-sm-6 col-form-label">H. Himenolepis Nana</label>
                                     <div class="col-sm-6">
                                         <input type="text" name="h_himenolepis_nana" value="<?php echo $h_himenolepis_nana1?>" class="form-control" placeholder="" autofocus>
                                     </div>

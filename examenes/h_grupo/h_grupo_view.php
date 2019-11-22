@@ -93,7 +93,7 @@ function calculaedad($fechanacimiento)
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label for="" class="col-sm-6 col-form-label">RH</label>
+                                <label for="" class="col-sm-6 col-form-label">Factor Rh</label>
                                 <div class="col-sm-6">
                                     <input type="text" name="rh" class="form-control" value="<?php echo $factorrh ?>" readonly>
                                 </div>

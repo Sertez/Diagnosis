@@ -36,7 +36,7 @@
                             </div>
                             <div class="card-body">
                                 <div class="form-group row">
-                                    <label for="vdrl" class="col-sm-6 col-form-label">VDRL(SEROLOGIA)</label>
+                                    <label for="vdrl" class="col-sm-6 col-form-label">VDRL (Serología)</label>
                                     <div class="col-sm-6">
                                         <input type="text" name="vdrl" value="<?php echo $vdrl1 ?>" class="form-control" placeholder="" autofocus>
                                     </div>

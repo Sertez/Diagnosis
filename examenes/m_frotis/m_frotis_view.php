@@ -122,19 +122,19 @@ function calculaedad($fechanacimiento)
                             </div>
                             <div class="card-body">
                                 <div class="form-group row">
-                                    <label for="gram" class="col-sm-6 col-form-label">Gram</label>
+                                    <label for="gram" class="col-sm-6 col-form-label">GRAm</label>
                                     <div class="col-sm-6">
                                         <input type="text" name="gram" class="form-control" value="<?php echo $gram ?>" readonly>
                                     </div>
                                 </div>
                                 <div class="form-group row">
-                                    <label for="pmn" class="col-sm-6 col-form-label">Pmn</label>
+                                    <label for="pmn" class="col-sm-6 col-form-label">PMN</label>
                                     <div class="col-sm-6">
                                         <input type="text" name="pmn" class="form-control" value="<?php echo $pmn ?>" readonly>
                                     </div>
                                 </div>
                                 <div class="form-group row">
-                                    <label for="celulas_guias" class="col-sm-6 col-form-label">Celulas Guias</label>
+                                    <label for="celulas_guias" class="col-sm-6 col-form-label">Células Guias</label>
                                     <div class="col-sm-6">
                                         <input type="text" name="celulas_guias" class="form-control" value="<?php echo $celulas_guias ?>" readonly>
                                     </div>
@@ -150,7 +150,7 @@ function calculaedad($fechanacimiento)
                         </div>
                         <div class="card-body">
                             <div class="form-group row">
-                                <label for="cel_epiteliales" class="col-sm-6 col-form-label">Calulas Epiteliales</label>
+                                <label for="cel_epiteliales" class="col-sm-6 col-form-label">Células Epiteliales</label>
                                 <div class="col-sm-6">
                                     <input type="text" name="cel_epiteliales" class="form-control" value="<?php echo $cel_epiteliales ?>" readonly>
                                 </div>

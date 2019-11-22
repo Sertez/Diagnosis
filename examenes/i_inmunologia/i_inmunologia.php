@@ -31,25 +31,25 @@
                             </div>
                             <div class="card-body">
                                 <div class="form-group row">
-                                    <label for="asto" class="col-sm-4 col-form-label">Asto</label>
+                                    <label for="asto" class="col-sm-4 col-form-label">ASTO</label>
                                     <div class="col-sm-4">
                                         <input type="text" name="asto" value="<?php echo $asto1 ?>" class="form-control" placeholder="" autofocus>
                                     </div>
-                                    <label for="ref" class="col-sm-4 col-form-label">MENOR DE 200UI/m </label>
+                                    <label for="ref" class="col-sm-4 col-form-label">Menor de 200UI/m </label>
                                 </div>
                                 <div class="form-group row">
-                                    <label for="pcr" class="col-sm-4 col-form-label">Pcr</label>
+                                    <label for="pcr" class="col-sm-4 col-form-label">PCR</label>
                                     <div class="col-sm-4">
                                         <input type="text" name="pcr" value="<?php echo $pcr1 ?>" class="form-control" placeholder="" autofocus>
                                     </div>
-                                    <label for="ref" class="col-sm-4 col-form-label">< MENOR DE 6.0 mg/L </label> 
+                                    <label for="ref" class="col-sm-4 col-form-label"> Menor de 6.0 mg/L </label> 
                                 </div> 
                                 <div class="form-group row">
-                                    <label for="ra_tes" class="col-sm-4 col-form-label">R.A Tes</label>
+                                    <label for="ra_tes" class="col-sm-4 col-form-label">R.A TES</label>
                                     <div class="col-sm-4">
                                         <input type="text" name="ra_tes" value="<?php echo $ra_tes1 ?>" class="form-control" placeholder="" autofocus>
                                     </div>
-                                    <label for="ref" class="col-sm-4 col-form-label">MENOR DE 8.0UI/ml</label>
+                                    <label for="ref" class="col-sm-4 col-form-label">Menor de 8.0UI/ml</label>
                                 </div>
                             </div>
                         </div>

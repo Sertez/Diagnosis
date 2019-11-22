@@ -40,13 +40,13 @@
                                 <div class="form-group row">
                                     <label for="gruposanguineo" class="col-sm-6 col-form-label">Grupo Sanguineo</label>
                                     <div class="col-sm-6">
-                                        <input type="text" name="grupo" value="<?php echo $gruposanguineo1 ?>" class="form-control" placeholder="Grupo Sanguíneo" autofocus>
+                                        <input type="text" name="grupo" value="<?php echo $gruposanguineo1 ?>" class="form-control" placeholder="" autofocus>
                                     </div>
                                 </div>
                                 <div class="form-group row">
-                                    <label for="factorrh" class="col-sm-6 col-form-label">factorrh</label>
+                                    <label for="factorrh" class="col-sm-6 col-form-label">Factor Rh</label>
                                     <div class="col-sm-6">
-                                        <input type="text" name="rh" value="<?php echo $factorrh1 ?>" class="form-control" placeholder="Factor RH" autofocus>
+                                        <input type="text" name="rh" value="<?php echo $factorrh1 ?>" class="form-control" placeholder="" autofocus>
                                     </div>
                                 </div>
                             </div>

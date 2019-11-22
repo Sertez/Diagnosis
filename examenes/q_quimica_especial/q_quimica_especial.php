@@ -37,7 +37,7 @@
                                     <div class="col-sm-4">
                                         <input type="text" name="hemoglobina" value="<?php echo $hemoglobina1 ?>" class="form-control" placeholder="" autofocus>
                                     </div>
-                                    <label for="ref" class="col-sm-4 col-form-label">4.4-6.7% NO DIABETICO <br> 6.7-7.3% OBJETIVO <br> 7.3-9.1% BUEN CONTROL</label>
+                                    <label for="ref" class="col-sm-4 col-form-label">4.4-6.7% No diabetico <br> 6.7-7.3% Objetivo <br> 7.3-9.1% Buen control</label>
                                 </div>
                                 <div class="form-group row">
                                     <label for="microalbuminura" class="col-sm-4 col-form-label">Microalbuminura</label>

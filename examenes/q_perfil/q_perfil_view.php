@@ -101,14 +101,14 @@ function calculaedad($fechanacimiento)
                                 <div class="col-sm-4">
                                     <input type="text" name="colesterol" class="form-control" value="<?php echo $colesterol ?>" readonly>
                                 </div>
-                                <label for="ref" class="col-sm-4 col-form-label"> HASTA 200 mg/dl </label> 
+                                <label for="ref" class="col-sm-4 col-form-label"> Hasta 200 mg/dl </label> 
                             </div> 
                             <div class="form-group row">
                                 <label for="trigliceridos" class="col-sm-4 col-form-label">Trigliceridos</label>
                                     <div class="col-sm-4">
                                         <input type="text" name="trigliceridos" class="form-control" value="<?php echo $trigliceridos ?>" readonly>
                                     </div>
-                                    <label for="ref" class="col-sm-4 col-form-label">HASTA 170 mg/dl</label>
+                                    <label for="ref" class="col-sm-4 col-form-label">Hasta 170 mg/dl</label>
                             </div>
                             <div class="form-group row">
                                 <label for="colesterol_hdl" class="col-sm-4 col-form-label">Colesterol HDL</label>
@@ -122,7 +122,7 @@ function calculaedad($fechanacimiento)
                                     <div class="col-sm-4"> 
                                         <input type="text" name="colesterol_ldl" class="form-control" value="<?php echo $colesterol_ldl ?>" readonly>
                                     </div>
-                                <label for="ref" class="col-sm-4 col-form-label">HASTA 129 mg/d </label>
+                                <label for="ref" class="col-sm-4 col-form-label">Hasta 129 mg/d </label>
                             </div>  
                         </div>
                     </div>
