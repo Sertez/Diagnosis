@@ -153,7 +153,7 @@ function calculaedad($fechanacimiento)
                                 <label for="ref" class="col-sm-4 col-form-label">0.90 - 1.30mg/dl</label>
                             </div>
                             <div class="form-group row">
-                                <label for="tasa_filtracion_glomerular" class="col-sm-4 col-form-label">Tasa de Filtración</label>
+                                <label for="tasa_filtracion_glomerular" class="col-sm-4 col-form-label">Tasa de Filtración Glomerular</label>
                                 <div class="col-sm-4">
                                     <input type="text" name="tasa_filtracion_glomerular" class="form-control" value="<?php echo $tasa_filtracion_glomerular ?>" readonly>
                                 </div>
